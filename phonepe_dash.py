@@ -6,7 +6,7 @@ from streamlit_option_menu import option_menu
 from PIL import Image
 import os
 
-db = psycopg2.connect(host='localhost', user='postgres', password='mugilven',database='phonepe')
+db = psycopg2.connect(host='localhost', user='postgres', password='your password',database='phonepe')
 cursor = db.cursor()
 
 with st.sidebar:
