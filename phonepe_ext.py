@@ -184,7 +184,7 @@ df_top_user.to_csv('top_user.csv',index=False)
 
 
 
-db=psycopg2.connect(host='localhost', user='postgres', password="mugilven", port=5432, database="phonepe")
+db=psycopg2.connect(host='localhost', user='postgres', password="your password", port=5432, database="phonepe")
 cursor=db.cursor()
 
 cursor.execute("create table agg_trans (State varchar, Year int, Quarter int, Transaction_type varchar, Transaction_count bigint, Transaction_amount bigint)")
